@@ -1,5 +1,5 @@
-import Header from '../components/layout/Header';
-import Card from '../components/common/Card'; // <-- 1. IMPORTIAMO LA NOSTRA CARD!
+import Header from '@/components/layout/Header';
+import Card from '@/components/common/Card'; // <-- 1. IMPORTIAMO LA NOSTRA CARD!
 
 const HomePage = () => {
   return (

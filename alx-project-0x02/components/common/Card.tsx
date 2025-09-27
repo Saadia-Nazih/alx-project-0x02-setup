@@ -1,4 +1,4 @@
-import { CardProps } from '../../interfaces'; // Importiamo il nostro "contratto"
+import { type CardProps } from '@/interfaces'; // Importiamo il nostro "contratto"
 
 // Qui diciamo al componente che deve accettare "props"
 // che rispettano le regole della nostra interfaccia CardProps.
