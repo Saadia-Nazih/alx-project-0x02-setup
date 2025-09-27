@@ -17,3 +17,19 @@ export interface PostProps {
   content: string;
   userId: number;
 }
+
+// Interfaccia per l'oggetto annidato 'address'
+export interface Address {
+  street: string;
+  suite: string;
+  city: string;
+  zipcode: string;
+}
+
+// Interfaccia principale per l'utente, che usa l'interfaccia Address
+export interface UserProps {
+  id: number;
+  name: string;
+  email: string;
+  address: Address;
+}
