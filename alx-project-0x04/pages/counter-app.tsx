@@ -26,7 +26,7 @@ const CounterApp: React.FC = () => {
         {count}
       </div>
 
-      {/* Buttons */}
+      {/* Button */}
       <div className="flex space-x-4">
         <button
           onClick={increment}
@@ -44,7 +44,7 @@ const CounterApp: React.FC = () => {
 
       {/* Footer message */}
       <p className="mt-8 text-sm text-white opacity-75">
-        Keep clicking, who knows what happens at 100? 😏
+        Keep clicking, who knows what happens at 100??? 😏
       </p>
     </div>
   );
